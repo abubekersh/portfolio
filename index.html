@@ -5,21 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="./app.js" defer></script>
   </head>
   <body>
     <header>
       <div class="title">
         <p><span class="square-color"></span> john nelson</p>
-        <img src="./images/menu.svg" alt="" />
+        <button id="nav-mu">
+          <img class="nav-menu" src="./images/menu.svg" alt="" />
+        </button>
       </div>
       <p class="role">project manager</p>
-      <nav>
-        <div>X</div>
+      <nav id="nav">
+        <div class="close-btn" id="close">X</div>
         <ul>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
+          <li id="top"><a href="">about me</a></li>
+          <li><a href="">resume</a></li>
+          <li><a href="">projects</a></li>
+          <li id="contact"><a href="#foo">contact</a></li>
         </ul>
       </nav>
     </header>
@@ -36,12 +39,14 @@
       </main>
       <div class="social-links">
         <a href=""><img src="images/twitter.png" alt="" /></a>
-        <a href=""><img src="images/telegram.png" alt="" /></a>
+        <a href="https://t.me/Abki_sh"
+          ><img src="images/telegram.png" alt=""
+        /></a>
         <a href=""><img src="images/linkedin.png" alt="" /></a>
         <a href=""><img src="images/instagram.png" alt="" /></a>
       </div>
     </div>
-    <main class="body">
+    <main class="bodyi">
       <p>hello!</p>
       <p>here's who i am &amp; what i do</p>
       <br />
@@ -51,7 +56,7 @@
         amazing websites for both front-end and back-end projects
       </p>
     </main>
-    <div class="footer">
+    <div class="footer" id="foo">
       <p>call</p>
       <p>09-82-37-85-91</p>
       <hr />
