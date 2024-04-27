@@ -72,3 +72,88 @@ hr {
     width: 25px;
     height: 25px;
 }
+
+.btn-primary:hover {
+    background-color: transparent;
+    border: 1px solid rgba(66, 118, 236, 1);
+    color: black;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(66, 118, 236, 1);
+    border: 1px solid transparent;
+    color: white;
+}
+
+header {
+    margin-bottom: px;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+}
+
+.body {
+    position: absolute;
+    background-color: #a58d75;
+    z-index: -1;
+    height: 800px;
+    margin-top: -350px;
+    width: 100%;
+    padding: 350px 20px 20px 20px;
+}
+nav{
+    display: none;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    margin-bottom: -10px;
+    padding-bottom: 0;
+}
+.title p{
+   text-transform: capitalize;
+   font-size: 20px;
+}
+header img{
+    align-self: center;
+    width: 30px;
+}
+.square-color{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: rgba(66, 118, 236, 1);
+}
+.role{
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-left:18px;
+    margin-top: 0;
+}
+.footer{
+    background-color: white;
+    height: 200px;
+    margin-top: 269px;
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+}
+.body p:first-of-type{
+    font-size: 25px;
+    font-weight: 900;
+}
+.body p{
+    
+    text-align: left;
+}
+.footer p:nth-of-type(odd){
+    font-weight: 900;
+    font-size: 22px;
+}
+.footer .social-links{
+    margin: 0;
+    width: 150px;
+    margin:auto;
+}
